@@ -13,7 +13,8 @@ class WritingApp(tk.Frame):
         self.text_area.config(state="disabled", bg="#FF5C8D", fg="#323232",height=10, pady=20, padx=20, font=("Comic Sans MS", 15, "bold"))
         self.text_area.grid(row=1, column=1, columnspan=3)
         self.text_area.bind("<Key>", self.handel_wait)
-        self.count = 1 * 60
+        # counts for five minutes.
+        self.count = 5 * 60
         # minutes
         self.start_button = Button(text="Start Writing", command=self.start_writing, bg="#524A4E", fg="#FDEFF4")
         self.start_button.grid(row=0, column=2, columnspan=1)

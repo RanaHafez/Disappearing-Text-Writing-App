@@ -3,6 +3,8 @@
 ### this is a desktop app that allows writers to write thoughts none stop and if the writer stops for 5 seconds all text will disappear.
 
 
+### inspiration: https://www.squibler.io/dangerous-writing-prompt-app
+
 ## Function 
 
 * start the timer and write.
